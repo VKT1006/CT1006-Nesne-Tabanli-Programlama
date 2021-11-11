@@ -1,0 +1,5 @@
+package Hafta5.Anonim;
+
+public interface KayitServisi {
+
+}

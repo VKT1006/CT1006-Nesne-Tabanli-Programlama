@@ -1,0 +1,29 @@
+package Hafta5.Anonim;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		KayitServisi kayitServisi = new KayitServisi() {
+			
+			@Override
+			public void mernisKontrol() {
+				
+				System.out.println("Kullanici MERNİS kontrolu yapıldı!");
+				
+			}
+			
+			@Override
+			public void emailKontrol() {
+				
+				System.out.println("Kullanıcı Email kontrolu yapıldı!");
+				
+				
+			}
+		};
+		
+		
+	}
+	
+	
+}

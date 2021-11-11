@@ -1,0 +1,12 @@
+package Hafta5;
+
+public class Kedi extends Canli{
+
+	@Override
+	public void sesCikar() {
+		System.out.println(super.getIsim() + " miyavliyor");
+	}
+
+	
+	
+}

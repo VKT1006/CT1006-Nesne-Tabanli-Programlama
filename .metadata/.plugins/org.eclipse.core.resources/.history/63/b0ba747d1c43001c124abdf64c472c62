@@ -1,0 +1,36 @@
+package Hafta5.yerelSinif;
+
+public class Main {
+
+	public static void sinifOlusturanMethod() {
+		
+		class Ogrenci{
+			
+			private int id;
+			private String isim;
+			
+			public Ogrenci(int id, String isim) {
+				this.id = id;
+				this.isim = isim;
+			}
+			
+			public String getIsim() {
+				return this.isim;
+			}
+			
+			
+		}
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+	
+}

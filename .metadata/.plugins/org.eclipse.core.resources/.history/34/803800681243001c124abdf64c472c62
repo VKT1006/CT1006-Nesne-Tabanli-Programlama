@@ -1,0 +1,20 @@
+package Hafta5;
+
+public class Canli {
+	
+	private String isim;
+	private int yas;
+	
+	public Canli() {
+		
+		
+	}
+	
+	public Canli(String isim, int yas) {
+		this.isim = isim;
+		this.yas = yas;
+	}
+	
+	
+
+}

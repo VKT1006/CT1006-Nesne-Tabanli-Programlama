@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Nesne Tabani CT1006\.metadata\.plugins\org.eclipse.jdt.core
+3413725848.index
+2810625429.index

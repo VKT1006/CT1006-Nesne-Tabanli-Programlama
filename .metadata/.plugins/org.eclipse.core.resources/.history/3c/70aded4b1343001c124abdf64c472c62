@@ -1,0 +1,12 @@
+package Hafta5;
+
+public class Kopek extends Canli{
+
+	@Override
+	public void sesCikar() {
+		System.out.println(super.getIsim() +  " havliyor");
+	}
+
+	
+	
+}

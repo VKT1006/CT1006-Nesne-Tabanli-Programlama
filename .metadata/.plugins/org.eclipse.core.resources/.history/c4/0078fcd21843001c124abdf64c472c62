@@ -1,0 +1,15 @@
+package Hafta5.innerClass;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// static olmayan bir inner class'i tanımlama şekli
+		
+		InnerClass.Kitap kitap = new InnerClass().new Kitap("Ruh Adam", "Hüseyin Nihal ATSIZ");
+		
+		
+	}
+	
+	
+}

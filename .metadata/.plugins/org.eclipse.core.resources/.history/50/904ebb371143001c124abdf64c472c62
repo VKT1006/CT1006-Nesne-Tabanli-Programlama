@@ -1,0 +1,7 @@
+package Hafta2.mirasBasitOrnek;
+
+public class CompanyUser extends User{
+
+	
+	
+}
