@@ -1,7 +1,0 @@
-package Hafta5;
-
-public interface Icanli {
-
-	void sesCikar();
-	
-}
