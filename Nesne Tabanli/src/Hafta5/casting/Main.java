@@ -10,15 +10,19 @@ public class Main {
 		 * 
 		 */
 		
-		Canli canli1 = new Kedi("Boncuk",3);
-		Canli canli2 = new Kopek("Karabaş",6);
+		Canli canli1 = new Kedi("Boncuk",3,"Mavi");
+		Canli canli2 = new Kopek("Karabaş",6,"Pitbull");
 		
-		sesCikartmaFonk(canli1);
+		
+		
+		
+		
+		/*sesCikartmaFonk(canli1);
 		
 		System.out.println(" ");
 		
 		sesCikartmaFonk(canli2);
-		
+		*/
 	}
 	
 	public static void sesCikartmaFonk(Canli canli) {
@@ -29,13 +33,14 @@ public class Main {
 		 * 
 		*/
 		
+		
 		if(canli instanceof Kopek) {
 			/*
-			 * 
 			 *  Downcasting
 			 * 
 			 */
 			Kopek kopek = (Kopek)canli;
+			kopek.getCins();
 			kopek.sesCikar();
 			
 		}
@@ -47,7 +52,8 @@ public class Main {
 			 * 
 			 */
 			
-			Kedi kedi = (Kedi) canli;
+			Kedi kedi = (Kedi)canli;
+			kedi.getGozRenk();
 			kedi.sesCikar();
 			
 		}

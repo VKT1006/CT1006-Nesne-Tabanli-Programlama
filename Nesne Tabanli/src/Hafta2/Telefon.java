@@ -19,10 +19,11 @@ public class Telefon {
 	 * 	Yani buraya yazdıklarımız oluşan objelerde bulunan özelliklerdir. 
 	 * 
 	 */
-	private String uretici;
+	public String uretici;
 	private String model;
-	private double fiyat;
-	
+	private double fiyat = 500;
+	private String renk;
+	private int hafiza;
 	
 	
 	
@@ -67,6 +68,39 @@ public class Telefon {
 		this.model = model;
 		this.fiyat = fiyat;
 	}
+
+	/*@Override
+	public String toString() {
+		return "Telefon [uretici=" + uretici + ", model=" + model + ", fiyat= " + fiyat]";
+	}*/
+	
+	
+	public void setFiyat(double fiyat) {
+		
+		if(fiyat < 0) {
+			System.out.println("Fiyat 0'dan küçük olamaz");
+		}
+		else {
+			this.fiyat = fiyat;
+		}
+		
+	}
+	
+	
+	public double getFiyat() {
+		return this.fiyat;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

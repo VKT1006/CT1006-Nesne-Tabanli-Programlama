@@ -4,7 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-				
+		
+		
 		/*
 		 *  Anonom sınıf normalde sınıf oluşturulamayan abstract class veya
 		 *  Interface'den tanımlandıkları satırda direkt olarak bir obje oluşturulması
@@ -13,28 +14,37 @@ public class Main {
 		 * 
 		 */
 		
-		KayitServisi kayitServisi = new KayitServisi() {
+		KayitServisi kayitServis1 = new KayitServisi() {
 			
 			@Override
 			public void mernisKontrol() {
-				
-				System.out.println("Kullanici MERNİS kontrolu yapıldı!");
+				System.out.println("Kişi kontrol edildi!");
 				
 			}
 			
 			@Override
 			public void emailKontrol() {
+				System.out.println("Geçerli bir email adresi!");
 				
-				System.out.println("Kullanıcı Email kontrolu yapıldı!");
-				
+			}
+		}; 
+		
+		
+		Deneme deneme = new Deneme() {
+			
+			@Override
+			void deneme1() {
+				System.out.println("Anonim sınıf abstract method!");
 				
 			}
 		};
 		
 		
-		kayitServisi.emailKontrol();
-		System.out.println(" ");
-		kayitServisi.mernisKontrol();
+		deneme.deneme1();
+		
+		
+		kayitServis1.mernisKontrol();
+		kayitServis1.emailKontrol();
 		
 	}
 	

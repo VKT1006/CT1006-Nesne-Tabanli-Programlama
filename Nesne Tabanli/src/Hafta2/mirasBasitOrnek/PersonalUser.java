@@ -18,6 +18,7 @@ public class PersonalUser extends User{
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.nationalIdentity = nationalIdentity;
+		
 	}
 
 

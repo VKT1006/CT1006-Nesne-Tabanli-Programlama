@@ -18,7 +18,7 @@ public class User implements UserInterface{
 		
 	}
 
-	@Override
+	
 	public void yemekYe() {
 		System.out.println("User yemek yiyor " + a + " KG");
 	}

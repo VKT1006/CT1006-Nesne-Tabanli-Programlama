@@ -8,6 +8,9 @@ public class InnerClass {
 	// Static olmayan bir iç sınıf!
 	class Kitap{
 		
+		private static String degisken;
+		
+		
 		private String yazar;
 		private String isim;
 		

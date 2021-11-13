@@ -23,7 +23,9 @@ public class Main {
 			public String getIsim() {
 				return this.isim;
 			}
-			
+			public int getId() {
+				return this.id;
+			}
 			
 		}
 		

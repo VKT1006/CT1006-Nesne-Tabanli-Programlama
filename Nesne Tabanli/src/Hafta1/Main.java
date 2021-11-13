@@ -20,12 +20,30 @@ public class Main {
 		 */
 		
 		
-		Araba araba1 = new Araba();
+							Araba araba1 = new Araba();
 		Araba araba2 = new Araba();
 		Araba araba3 = new Araba();
 		Araba araba4 = new Araba();
 		Araba araba5 = new Araba();
 		Araba araba6 = new Araba();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}	
 	

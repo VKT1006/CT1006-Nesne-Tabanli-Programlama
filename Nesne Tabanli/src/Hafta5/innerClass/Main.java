@@ -14,7 +14,7 @@ public class Main {
 		// static olan bir inner class tanımlama
 		
 		
-		StaticInnerClass.Kitap kitap1 = new StaticInnerClass.Kitap("", "");
+		StaticInnerClass.Kitap kitap1 = new StaticInnerClass.Kitap("Victor Hugo", "Sefiller");
 		
 		System.out.println(kitap1.toString());
 		

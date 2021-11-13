@@ -1,8 +1,0 @@
-package Hafta5.innerClass;
-
-public class StaticInnerClass {
-
-	private String ustDegisken;
-	
-	
-}
